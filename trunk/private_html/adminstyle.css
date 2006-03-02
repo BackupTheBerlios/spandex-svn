@@ -1,0 +1,74 @@
+/**
+ * Project Spandex
+ * Copyright (c) 2006 Sydney PHP User Group
+ *  http://www.sydphp.org/
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; either version 2.1
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * See licence.txt for more details
+ **/
+ 
+/* stylesheet for admin area */
+
+/* Breadcrumb style */
+.breadcrumbs { margin-left: 0; padding-left: 0 }
+.breadcrumbs .first {background-image: none; padding-left: 0;}
+.breadcrumbs li { display: inline; padding-left: 15px; background-image: url('images/arrow.gif'); background-position: center left; background-repeat: no-repeat; margin-right: 15px; padding-left: 25px;}
+
+/* Data listing style */
+.data td {border: 1px solid #339900; padding: .25em;}
+th {text-transform: capitalize; }
+
+.userlinks {float: right; font-size: 0.8em; }
+ul.pages li {display: inline; margin-right: 1em;}
+
+/* advanced auto complete style info */
+div.qf_AdvACContainer {        
+  overflow-y: auto;
+  overflow: -moz-scrollbars-vertical;
+  border: 1px solid black;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  height: 10em;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+ul.qf_AdvACList {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+ul.qf_AdvACList li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+/* General style stuff */
+td {vertical-align: top;}
+body {font-family: Arial, Helvetica, sans-serif;}
+h1 {font-size: 1.5em; color: #fff; background-color: #5CB50E; padding: .1em 0 .1em 1em; margin-top: .2em; margin-bottom: 0; background-image: url(images/gradient_edge.gif); background-position: right; background-repeat: repeat-y;}
+a {color: #83C30A;}
+.admin-nav {font-size: 1em;}
+a:visited {color: #339900;}
+a:hover {color: #000;}
+
+.tableheader div {
+  font-weight: bold;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: #83C30A;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+

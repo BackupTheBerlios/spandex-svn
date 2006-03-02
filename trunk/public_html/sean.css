@@ -1,0 +1,30 @@
+/**
+ * Project Spandex
+ * Copyright (c) 2006 Sydney PHP User Group
+ *  http://www.sydphp.org/
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; either version 2.1
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * See licence.txt for more details
+ **/
+ 
+body {background-color: #000000; color: #397B84; font-family: "Book Antiqua", "Times New Roman", Times, serif; margin: 0;text-align: center; background-image: url(images/Celtic_Knot_circle.jpg); background-repeat: no-repeat; background-position: -10em top; }
+div.home {font-size: 16px; text-align: center; margin-top: 30px; margin-bottom: 0; padding-bottom: 42px; background-image: url(images/dragon_decoration.gif); background-repeat: no-repeat; background-position: bottom center; }
+a {color: #004D79; }
+a:visited {}
+a:active {}
+a:hover {color: #669999;}
+.header{background-color: #FFFFE6; margin: 0 0 0 22px; width: 616px; padding-bottom: 4px; background-image: url(images/double-border.gif); background-position: bottom; background-repeat: repeat-x;}
+.main {background-color: #FFFFE6; margin: 0 0 0 22px; padding: 1em 15px 1em 15px; width: 586px; }
+.top-title {font-size: 12pt; color: #004D79; background-color: #F8F8D3; background-image: url(images/double-border.gif); background-position: top; background-repeat: repeat-x; text-align: center; margin: 0; padding: 3px 0 3px 0;}
+.backdrop {margin-left: auto; margin-right: auto; width: 660px; background-image: url(images/celtic_middle.gif); text-align: left; }
+.footer {margin-left: auto; margin-right: auto; width: 650px; background-color: #004444; padding: 3px; border: 1px solid #777; border-top-width: 2px; border-bottom-width: 2px; font-size: 0.6em; }
+.footer a {color: #397B84; }
+h1 {margin: 0; background-image: url(images/tan_celtic_tile.gif); background-repeat: repeat; padding: 15px 0 15px 10px;}
